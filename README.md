@@ -16,7 +16,7 @@ I use a simple CNN to do training and predictions. The CNN has 18 layers. Cross 
 
 The images are first preprocessed by flipping them horizontally to add more data, resized to 32x32, center cropped to 32x32, changed to a pytorch tensor and fianlly normalized ((0.5,0.5,0.5),(0.5,0.5,0.5)).
 
-I have managed a 97% accuracy during training. 
+I have managed a 71% accuracy during training. 
 
 
 Link to the data: https://www.kaggle.com/alxmamaev/flowers-recognition
